@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-serif text-sm">
+    <div class="p-4">
+        <div class="grid place-content-center justify-items-center">
+            <h1 class="uppercase text-3xl">Wilson Zhu</h1>
+            <p class="grid grid-cols-4 justify-items-center">
+                <span class="text-base">wzhu7148@gmail.com</span>
+                <span class="text-base">(225) 421-7148</span>
+                <span class="text-base">Philadelphia, PA</span>
+                <span class="text-base">github.com/wilson-6731</span>
+            </p>
+        </div>
+
+        <span class="uppercase text-lg pt-5">experience</span>
+        <hr class="border-1 border-gray-800">
+        <div>
+            <span class="font-bold">Senior Software Developer</span>
+            <div class="grid grid-cols-5 justify-items-start">
+                <p class="col-span-3">Cherokee National System Solutions - Tulsa, OK</p>
+                <p class="col-span-2 justify-self-end">Dec 2021 - May 2025</p>
+            </div>
+
+            <ul class="list-disc list-inside pt-1">
+                <li>Led the feature development of the NuGo2 project, a USGS monitoring tool for 10,000+ water sites
+                    across the country, utilizing Spring Boot</li>
+                <li>Architected NuGo2's testing suite to utilize the Chain-of-Responsibility design pattern for improved
+                    maintainability and flexibility</li>
+                <li>Optimized the database queries and schema within NuGo2 to improve API performance by ~93% and
+                    reduced a significant number of joins needed to fetch necessary data</li>
+                <li>Engineered an Insomnia plugin solution to allow users to seamlessly authenticate and access NuGo2's
+                    secured API</li>
+                <li>Integrated dependency scanning within Gitlab CI/CD for security checks against imported project
+                    dependencies and added caching for speed and efficiency</li>
+                <li>Documented the software design and architecture of NuGo2 to ease the onboarding process for
+                    new team members, ensuring smooth maintenance support and future development</li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <span class="font-bold">Application Developer</span>
+            <div class="grid grid-cols-5 justify-items-start">
+                <p class="col-span-3">IBM - Baton Rouge, LA</p>
+                <p class="col-span-2 justify-self-end">Jan 2018 - Dec 2021</p>
+            </div>
+            <ul class="list-disc list-inside pt-1">
+                <li>Collaborated with IBM clients to develop and maintain applications based on their requirements and
+                    needs</li>
+                <li>Developed and maintained governance checks under PNC for hundreds of retail teams deploying via
+                    Jenkins to ensure services are free from security vulnerabilities and ensure they are rigorously
+                    tested before it is released to production in Openshift</li>
+                <li>Created backwards compatible SSO flow for Honda to provide support to the legacy HondaLink and
+                    AcuraLink mobile applications as well as the updated web applications written using Angular and
+                    NodeJS as the backend</li>
+                <li>Developed an authorization microservice to provide OAuth 2.0 support for Honda's support of the
+                    Amazon's In-Car Delivery service</li>
+                <li>Created a suite of microservices to interface with Honda's TCUs to provide a wide variety of
+                    telemetry and commands to 2020 and 2021 Honda/Acura vehicles using Spring Boot</li>
+            </ul>
+        </div>
+
+        <div class="uppercase text-lg pt-5">key skills</div>
+        <hr class="border-1 border-gray-800">
+        <div class="grid grid-cols-5 justify-items-start">
+            <p class="font-bold">Languages</p>
+            <p class="col-span-4">Java, Groovy, Javascript, Typescript</p>
+            <p class="font-bold">Technologies</p>
+            <p class="col-span-4">Spring Boot, Angular, Git, Bash, JUnit, Spock, Jenkins, Openshift, AWS,
+                Postgres</p>
+        </div>
+
+        <div class="uppercase text-lg pt-5">education</div>
+        <hr class="border-1 border-gray-800">
+        <div class="grid grid-cols-5 justify-items-start">
+            <p class="col-span-3"><span class="font-bold">Louisiana State University</span> - BS in Computer Science</p>
+            <p class="col-span-2 justify-self-end">Aug 2014 - Dec 2017</p>
+        </div>
+    </div>
+</body>
+
+</html>
